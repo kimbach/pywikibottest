@@ -1,0 +1,236 @@
+Noter i forbindelse med kodeworkshop 12. september 2019
+
+https://api.smk.dk/api/v1/art/?object_number=kms1 <object_number>=SMK nummer
+https://api.smk.dk/api/v1/docs#/artworks/searchArt
+https://projectmirador.org/demo/
+
+
+Mapping
+object_number->accessencion object_number
+<id>
+<modified>
+<acquisition_date_precision>=<iso-data>
+<responsible_department>
+<content_description>
+<current_location_name>
+<frame_notes>
+<dimensions>
+<exhibitions>
+<documentation>
+<labels>
+<part_of> 
+<parts> 
+<production>
+<production_date>
+<techniques>
+<titles>={<title>}*
+<notes>
+<object_history_note>
+<object_number>
+<iiif_manifest>::=<url>
+<production_dates_note>
+<boolean>::="true" | "false"
+<public_domain>::=<boolean>
+<rights>::=<url>
+<on_display>::=<boolean>
+<alternative_images>
+<image_native>::=<url>
+<image_cropped>::=<boolean> (ikke authoritativ, med mindre den er sat til "true")
+<has_image>::=<boolean>
+
+-------------------------
+<image_native>->billedet
+
+
+{{Artwork
+|artist={{Creator:<production.creator>}}
+|wikidata=?? Q20440516
+|title={{title|lang=da|Portræt af ung dame|en={{Portrait of a Young Lady}}}}
+               "title":"Titanernes fald",
+               "language":"da-DK",
+               "type":"MUSEUM"
+               "language":"en-US",
+               "translation":"The Fall of the Titans"
+  
+ 
+ {{en|1=Kastrup Værk, Bryggergården 14, protected building in Tårnby Municipality, Denmark}}{{Fredet bygning|185-1822-5}}
+
+|Description={{<lang>|<integer>=<text>}}*
+|date={{other date|~|1600}}
+"start":"1588-01-01T00:00:00.000Z",
+               "end":"1590-12-31T00:00:00.000Z",
+               "period":"1588-1590"
+|medium={{Oil on canvas}}
+|dimensions={{Size|cm|119.5|83}}
+|institution={{institution:Statens Museum for Kunst}}
+|location={{Room|1=219}}<current_location_name>
+"current_location_name":"Sal 205",
+|references=<documentation>
+|object history=<object_history_note>
+|exhibition history=<exhibitions>
+|inscriptions=
+|accession number=<object_number>
+|source=[http://www.smk.dk/udforsk-kunsten/samlingerne/europaeisk-kunst-1300-1800/highlights/federico-barocci-portraet-af-en-ung-dame/ www.smk.dk] {{and}} [http://soeg.smk.dk/vark.asp?ObjectId=4857 soeg.smk.dk] photo date 2004-11-30
+|permission=if "true"==<public_domain>{{Licensed-PD-Art}}
+|other_versions=
+}}
+
+
+
+
+
+
+
+
+
+"id":"1180038434_object",
+         "modified":"2019-08-12T09:34:37Z",
+         "acquisition_date_precision":"1621-12-31",
+         "responsible_department":"Samling og Forskning (KMS)",
+         "content_description":[ 
+            "Den faldende i billedets midte er en gentagelse af Cornelis Cornelisz' egen 'Ikaros', stukket af Hendrick Goltzius i 1588 (Holl. 306-09). ",
+            "Lignende figur af den stående mand til venstre i to andre værker af Cornelis Cornelisz: 'Drieluik met de Kindermoord te Bethlehem, de Aanbidding der heders en de Aanbidding der koningen', 1591 + 'De kindermoord te Bethlehem', 1591 (Maurits - Prins van Oranje, Rijksmuseum, Amsterdam, 2000, p. 148 + 321)"
+         ],
+         "current_location_name":"Sal 205",
+         "frame_notes":[ 
+            "Bagklædning: false",
+            "Mikroklimaramme: false"
+         ],
+         "dimensions":[ 
+            { 
+               "notes":"2390 x 3070 mm",
+               "part":"netto",
+               "type":"hojde",
+               "unit":"cm",
+               "value":"239"
+            },
+            { 
+               "notes":"2390 x 3070 mm",
+               "part":"netto",
+               "type":"bredde",
+               "unit":"cm",
+               "value":"307"
+            }
+         ],
+         "documentation":[  ],
+         "exhibitions":[  ],
+         "labels":[ 
+            { 
+               "text":"I den romerske digter Ovids Metamorfoser fortælles historien om den herskende gudeslægt bestående af titanerne, kykloperne og giganterne, som blev udfordret af de olympiske guder med Zeus i spidsen til en drabelig kosmisk kamp, den såkaldte titanomachia.\n\nKampen endte med titanernes nederlag og den af Zeus befalede nedstyrtning til underverdenens Tartaros, hvor de blev skyld i jordskælv og vulkaners udbrud.\n\nKunstneriske idealer\nCornelis Cornelisz van Haarlem har udlevet alle sine kunstneriske idealer i de nøgne muskuløse kroppe og i de komplicerede stillinger. Studier efter nøgenmodel blev først almindeligt i slutningen af 1600-tallet, men i Haarlem stiftede Karel van Mander (1548-1606) et akademi, hvor man ikke alene dyrkede den akademiske nøgenakt som øvelsesmotiv, men også diskuterede emner af kunstteoretisk natur.\n\nEt eksempel på Haarlem-manierismen\nMaleriet er et eksempel på Haarlem-manierismen. Manierisme er betegnelsen for den stilart mellem renæssancen og barokken, hvor det artificielle og sensuelle var i højsædet. Stilen blev blandt andet fremelsket ved Rudolf 2.s (1552-1612) hof i Prag og bredte sig herfra nordpå, hvor vores egen Christian 4. (1557-1648) tog den til sig. Titanernes fald var blandt de nederlandske malerier, som han erhvervede i 1621.",
+               "type":"HIGHLIGHTS",
+               "source":"Eva de la Fuente Pedersen",
+               "date":"2005-01-01T00:00:00.000Z"
+            },
+            {  },
+            {  }
+         ],
+         "materials":[ 
+            { 
+               "material":"lærred"
+            },
+            { 
+               "material":"olie"
+            }
+         ],
+         "object_names":[ 
+            { 
+               "name":"maleri"
+            }
+         ],
+         "part_of":[ 
+            "KKSgb1045"
+         ],
+         "parts":[ 
+            "KKSgb1045"
+         ],
+         "production":[ 
+            { 
+               "creator":"Cornelisz. van Haarlem, Cornelis",
+               "creator_date_of_birth":"1562-01-01T00:00:00.000Z",
+               "creator_date_of_death":"1638-01-01T00:00:00.000Z",
+               "creator_nationality":"hollandsk",
+               "creator_history":"Tegninger: ?:Tu mag",
+               "creator_lref":"31366_person"
+            }
+         ],
+         "production_date":[ 
+            { 
+               "start":"1588-01-01T00:00:00.000Z",
+               "end":"1590-12-31T00:00:00.000Z",
+               "period":"1588-1590"
+            }
+         ]
+
+                  ],
+         "production_date":[ 
+            { 
+               "start":"1588-01-01T00:00:00.000Z",
+               "end":"1590-12-31T00:00:00.000Z",
+               "period":"1588-1590"
+            }
+         ],
+         "reproduction":[ 
+            { 
+               "reproduction_reference":"fe066919-04dc-4c8f-a331-d3fde719d300.jpg",
+               "reproduction_reference_lref":"1180020302"
+            }
+         ],
+         "techniques":[ 
+            { 
+               "technique":"Olie på lærred"
+            }
+         ],
+         "titles":[ 
+            { 
+               "title":"Titanernes fald",
+               "language":"da-DK",
+               "type":"MUSEUM"
+            },
+            { 
+               "language":"en-US",
+               "translation":"The Fall of the Titans"
+            }
+         ],
+         "notes":[ 
+            "Tidligere inventarnumre: \n- papirer vedr. de tidligste indkøb af kunst 1621 Lit. C.C. nr. 217\n- Kunstkammerets Inventar 1690 p. 353 nr. 36 (se Bering Liisberg p. 140)\n- KMS' kunstk. protokol: s. 228 s. 82\n\nKatalognumre: \n- kat. 1922 nr. 188\n- kat. 1946 nr. 134"
+         ],
+         "number_of_parts":1,
+         "object_history_note":[ 
+            "(P.J.J. van Thiel har foreslået, Van Thiel (1993) 336, at KMS1 forestiller 'Lucifers fald' og er identisk med det maleri Van Mander i Het Schilder-Boeck omtaler fra Jacob Rauwerts samling. I så fald blev maleriet solgt 29. august 1612 fra sønnen Claes Rauwerts eje - \"1 [stuck per Mr. C] val der Engelen 455:0:-\" til den amsterdamske kunsthandler og -samler Barent van Someren.)\n\nPlaceringshistorie:\n- Magasineret\n- 1886, febr.: Kronborg\n- 1914, okt.: retur\n- 1922: loftsbillede i sal XXIX i museets gamle samling\n- 1929, juni: til Kronborg\n- 1951, 14. marts: tilbage\n- 1953, 26. aug.: til Kronborg\n- 1954, april: tilbage\n- 1959, april: til Kronborg\n- 1977, 29. febr.: på liste ført af slotsforvalteren\n- 1982, 9. juni: Sølvgade"
+         ],
+         "object_number":"KMS1",
+         "iiif_manifest":"https://api.smk.dk/api/v1/iiif/manifest/?id=kms1",
+         "production_dates_notes":[ 
+            "Påbegyndt: fagligt skøn afsluttet: fagligt skøn"
+         ],
+         "public_domain":true,
+         "rights":"https://creativecommons.org/share-your-work/public-domain/cc0/",
+         "on_display":true,
+         "alternative_images":[ 
+            { 
+               "mime_type":"image/tiff",
+               "iiif_id":"https://iip.smk.dk/iiif/jp2/KMS1.tif.jp2",
+               "iiif_info":"https://iip.smk.dk/iiif/jp2/KMS1.tif.jp2/info.json",
+               "width":7328,
+               "height":5919,
+               "size":130151836,
+               "thumbnail":"https://iip.smk.dk/iiif/jp2/KMS1.tif.jp2/full/!1600,/0/default.jpg",
+               "native":"https://iip.smk.dk/iiif/jp2/KMS1.tif.jp2/full/full/0/native.jpg",
+               "orientation":"landscape"
+            }
+         ],
+         "image_mime_type":"image/tiff",
+         "image_iiif_id":"https://iip.smk.dk/iiif/jp2/KMS1.tif.reconstructed.tif.jp2",
+         "image_iiif_info":"https://iip.smk.dk/iiif/jp2/KMS1.tif.reconstructed.tif.jp2/info.json",
+         "image_width":7151,
+         "image_height":5543,
+         "image_thumbnail":"https://iip.smk.dk/iiif/jp2/KMS1.tif.reconstructed.tif.jp2/full/!1600,/0/default.jpg",
+         "image_native":"https://iip.smk.dk/iiif/jp2/KMS1.tif.reconstructed.tif.jp2/full/full/0/native.jpg",
+         "image_cropped":true,
+         "image_orientation":"landscape",
+         "has_image":true
+ 
+
+f.eks. KMS1
+
+Filnavn: <id> 

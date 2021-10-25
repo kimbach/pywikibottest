@@ -1,0 +1,8 @@
+#LWP-Cookies-2.0
+Set-Cookie3: centralauth_Token=1ba59bfc39592602f20c1645df76f7ad; path="/"; domain=".commons.wikimedia.beta.wmflabs.org"; path_spec; secure; expires="2020-09-08 10:16:07Z"; httponly=None; version=0
+Set-Cookie3: centralauth_User="Kim+Bach"; path="/"; domain=".commons.wikimedia.beta.wmflabs.org"; path_spec; secure; expires="2020-09-08 10:16:07Z"; httponly=None; version=0
+Set-Cookie3: WMF-Last-Access-Global="09-Sep-2019"; path="/"; domain=".wikimedia.beta.wmflabs.org"; path_spec; domain_dot; secure; expires="2019-10-11 00:00:00Z"; HttpOnly=None; version=0
+Set-Cookie3: WMF-Last-Access="09-Sep-2019"; path="/"; domain="commons.wikimedia.beta.wmflabs.org"; path_spec; secure; expires="2019-10-11 00:00:00Z"; HttpOnly=None; version=0
+Set-Cookie3: commonswikiUserID=2082; path="/"; domain="commons.wikimedia.beta.wmflabs.org"; path_spec; secure; expires="2020-09-08 10:16:07Z"; httponly=None; version=0
+Set-Cookie3: commonswikiUserName="Kim+Bach"; path="/"; domain="commons.wikimedia.beta.wmflabs.org"; path_spec; secure; expires="2020-09-08 10:16:07Z"; httponly=None; version=0
+Set-Cookie3: loginnotify_prevlogins="2019-vw65eq-1mhkgirxl6xielxo0kt2ul0m78m8r32"; path="/"; domain="commons.wikimedia.beta.wmflabs.org"; path_spec; secure; expires="2020-03-07 10:16:07Z"; httponly=None; version=0
